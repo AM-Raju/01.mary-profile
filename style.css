@@ -31,6 +31,7 @@ p {
   font-size: 35px;
   font-weight: 700;
   color: var(--text-dark);
+  text-align: center;
 }
 
 /* Header section */
@@ -164,18 +165,16 @@ p {
   margin: 0 auto;
 }
 
-.what-i-do h2 {
-  margin-bottom: 30px;
-  text-align: center;
-}
 .what-i-do > p {
-  margin-bottom: 50px;
+  margin: 30px auto 50px;
+  width: 909px;
   text-align: center;
 }
 
 .skill-container {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 130px;
 }
 .skill-box {
   width: 267px;
@@ -184,4 +183,47 @@ p {
 }
 .skill {
   margin: 30px;
+}
+.skill img {
+  margin-bottom: 30px;
+}
+
+.skill h3 {
+  margin-bottom: 20px;
+}
+
+/* section: My resume */
+.my-resume {
+  width: 1144px;
+  margin: 0 auto 130px;
+}
+.my-resume .section-title {
+  margin-bottom: 130px;
+}
+
+.resume-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.edu-work {
+  width: 550px;
+}
+.edu-work h3 {
+  margin-bottom: 30px;
+}
+
+.unit h4 {
+  margin-bottom: 10px;
+}
+.unit h5 {
+  margin-bottom: 20px;
+}
+
+hr {
+  margin: 30px 0;
+}
+
+.my-resume button {
+  margin: 50px auto;
 }
